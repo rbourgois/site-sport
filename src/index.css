@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #005994;
+  --color-secondary: #a04100;
+  --color-tertiary: #874400;
+  --color-background: #f9f9ff;
+  --color-surface: #f9f9ff;
+  --color-on-surface: #111c2d;
+  --color-outline-variant: #c0c7d3;
+  --color-outline: #717882;
+  --color-surface-container: #e7eeff;
+  --color-surface-container-low: #f0f3ff;
+  --color-surface-container-highest: #d8e3fb;
+  --color-surface-container-high: #dee8ff;
+  --color-surface-variant: #d8e3fb;
+  --color-on-surface-variant: #404751;
+  --color-inverse-surface: #263143;
+  --color-slate-muted: #64748B;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-primary-fixed: #d1e4ff;
+  --color-secondary-container: #fe6b00;
+  --color-tertiary-container: #ab5801;
+  --color-on-primary-fixed-variant: #00497c;
+  
+  --spacing-gutter-md: 20px;
+  --spacing-gutter-sm: 12px;
+  --spacing-margin-mobile: 16px;
+  --spacing-max-width: 1280px;
+  --spacing-margin-desktop: 32px;
+
+  --font-headline-md: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-surface);
+    color: var(--color-on-surface);
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.product-card-hover:hover {
+  box-shadow: 0 8px 30px rgba(0, 89, 148, 0.08);
+  transform: translateY(-2px);
+}
+
+.hero-gradient {
+  background: linear-gradient(to right, rgba(25, 30, 45, 0.8), rgba(25, 30, 45, 0.2));
+}
+
+/* Material Icons configuration */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

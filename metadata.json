@@ -1,0 +1,6 @@
+{
+  "name": "Apex Sports",
+  "description": "High-Performance Sports Gear and equipment for Biking, Hiking, and Fitness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
