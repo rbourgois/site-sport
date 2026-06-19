@@ -34,6 +34,14 @@ export default function ProductDetailPage({
   const [activeImageIdx, setActiveImageIdx] = useState<number>(0);
   const [sizeError, setSizeError] = useState<boolean>(false);
 
+  const getCategoryLabel = (cat: string): string => {
+    if (cat === 'vélo') return t('tag_bike');
+    if (cat === 'randonnée') return t('nav_randonnee');
+    if (cat === 'nutrition') return t('nav_nutrition');
+    if (cat === 'fitness') return t('nav_fitness');
+    return cat;
+  };
+
   const hasPhysicalSizes = useMemo(() => {
     return (
       product.sizes &&
@@ -93,7 +101,7 @@ export default function ProductDetailPage({
               {t('home')}
             </span>
             <span className="material-symbols-outlined text-[14px]">chevron_right</span>
-            <span className="capitalize">{product.category}</span>
+            <span className="capitalize">{getCategoryLabel(product.category)}</span>
             <span className="material-symbols-outlined text-[14px]">chevron_right</span>
             <span className="text-primary font-bold line-clamp-1 max-w-[200px] sm:max-w-xs">{product.title}</span>
           </div>
@@ -354,7 +362,7 @@ export default function ProductDetailPage({
                   {t('category')}
                 </span>
               </div>
-              <span className="font-sans text-body-sm text-primary font-bold capitalize">{product.category}</span>
+              <span className="font-sans text-body-sm text-primary font-bold capitalize">{getCategoryLabel(product.category)}</span>
             </div>
 
             <div className="bg-white border border-outline-variant rounded-xl p-4 flex flex-col justify-between hover:border-slate-muted transition-colors text-left shadow-xs">
@@ -433,7 +441,7 @@ export default function ProductDetailPage({
                       </div>
                       
                       <span className="text-[10px] uppercase font-technical-data text-slate-muted tracking-wider block">
-                        {p.category}
+                        {getCategoryLabel(p.category)}
                       </span>
                       <h4 className="font-label-bold text-body-sm text-on-surface line-clamp-1 group-hover:text-primary transition-colors mt-0.5 mb-1">
                         {p.title}
