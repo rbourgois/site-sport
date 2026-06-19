@@ -819,7 +819,28 @@ export default function App() {
   
   const [isCartOpen, setIsCartOpen] = useState<boolean>(false);
   const [isAccountOpen, setIsAccountOpen] = useState<boolean>(false);
-  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const prodId = params.get('product') || params.get('p');
+      if (prodId) {
+        const found = rawProducts.find(p => String(p.id) === String(prodId));
+        if (found) return found;
+      }
+      const hash = window.location.hash;
+      if (hash) {
+        const hashParams = new URLSearchParams(hash.replace(/^#/, ''));
+        const hashProdId = hashParams.get('product') || hashParams.get('p');
+        if (hashProdId) {
+          const found = rawProducts.find(p => String(p.id) === String(hashProdId));
+          if (found) return found;
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+    return null;
+  });
   const [sizeSelection, setSizeSelection] = useState<string>('');
   const [checkoutStep, setCheckoutStep] = useState<'shopping' | 'success'>('shopping');
 
@@ -1032,10 +1053,93 @@ export default function App() {
     document.documentElement.lang = lang;
   }, [lang]);
 
+  // Bloquer le défilement de l'arrière-plan quand un modal/drawer est ouvert
+  useEffect(() => {
+    const isAnyOverlayOpen = isCompareModalOpen || isCartOpen || isAccountOpen || isMobileFilterOpen;
+    if (isAnyOverlayOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isCompareModalOpen, isCartOpen, isAccountOpen, isMobileFilterOpen]);
+
   // Sauvegarder le panier
   useEffect(() => {
     localStorage.setItem('apex_sports_cart', JSON.stringify(cart));
   }, [cart]);
+
+  // Synchroniser le produit sélectionné avec l'URL de l'application
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const urlProdId = params.get('product') || params.get('p');
+      
+      if (selectedProduct) {
+        if (urlProdId !== String(selectedProduct.id)) {
+          params.set('product', String(selectedProduct.id));
+          const newUrl = `${window.location.pathname}?${params.toString()}`;
+          window.history.pushState({ productId: selectedProduct.id }, '', newUrl);
+        }
+      } else {
+        if (urlProdId) {
+          params.delete('product');
+          params.delete('p');
+          const searchStr = params.toString();
+          const newUrl = searchStr ? `${window.location.pathname}?${searchStr}` : window.location.pathname;
+          window.history.pushState({}, '', newUrl);
+        }
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }, [selectedProduct]);
+
+  // Écouter les boutons Précédent/Suivant et changements de hash/navigateur
+  useEffect(() => {
+    const handlePopState = () => {
+      try {
+        const params = new URLSearchParams(window.location.search);
+        const prodId = params.get('product') || params.get('p');
+        
+        if (prodId) {
+          const found = products.find(p => String(p.id) === String(prodId));
+          if (found) {
+            setSelectedProduct(found);
+            return;
+          }
+        }
+        
+        const hash = window.location.hash;
+        if (hash) {
+          const hashParams = new URLSearchParams(hash.replace(/^#/, ''));
+          const hashProdId = hashParams.get('product') || hashParams.get('p');
+          if (hashProdId) {
+            const found = products.find(p => String(p.id) === String(hashProdId));
+            if (found) {
+              setSelectedProduct(found);
+              return;
+            }
+          }
+        }
+        
+        setSelectedProduct(null);
+      } catch (e) {
+        console.error(e);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    window.addEventListener('hashchange', handlePopState);
+    
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+      window.removeEventListener('hashchange', handlePopState);
+    };
+  }, [products]);
 
   // --- Traduction helper ---
   const t = (key: string): string => {
@@ -2543,14 +2647,14 @@ export default function App() {
                                   <button
                                     type="button"
                                     onClick={() => {
-                                      const defaultSize = p.sizes[0] || 'Sans taille';
-                                      addToCartAction(p, defaultSize);
+                                      setSelectedProduct(p);
+                                      setSizeSelection(p.sizes[0] || '');
                                       setIsCompareModalOpen(false);
                                     }}
                                     className="w-full bg-primary hover:bg-secondary text-white text-[10px] font-black py-2.5 rounded-xl border border-primary hover:border-secondary transition-all active:scale-[0.98] flex items-center justify-center gap-1.5 shadow-xs uppercase cursor-pointer"
                                   >
-                                    <span className="material-symbols-outlined text-[14px]">add_shopping_cart</span>
-                                    <span>{lang === 'fr' ? "Ajouter au panier" : "Add to cart"}</span>
+                                    <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                                    <span>{lang === 'fr' ? "Choisir la taille" : "Choose size"}</span>
                                   </button>
                                 </div>
                               </div>
@@ -2794,14 +2898,14 @@ export default function App() {
                                 <button
                                   type="button"
                                   onClick={() => {
-                                    const defaultSize = p.sizes[0] || 'Sans taille';
-                                    addToCartAction(p, defaultSize);
+                                    setSelectedProduct(p);
+                                    setSizeSelection(p.sizes[0] || '');
                                     setIsCompareModalOpen(false);
                                   }}
                                   className="bg-primary hover:bg-secondary text-white text-[10px] font-black px-4 py-2.5 rounded-lg border border-primary hover:border-secondary transition-all duration-200 active:scale-[0.98] inline-flex items-center gap-1.5 shadow-xs uppercase cursor-pointer"
                                 >
-                                  <span className="material-symbols-outlined text-[14px]">add_shopping_cart</span>
-                                  <span>{lang === 'fr' ? "Ajouter au panier" : "Add to cart"}</span>
+                                  <span className="material-symbols-outlined text-[14px]">open_in_new</span>
+                                  <span>{lang === 'fr' ? "Choisir la taille" : "Choose size"}</span>
                                 </button>
                               ) : (
                                 <span className="text-zinc-300 font-mono">-</span>
