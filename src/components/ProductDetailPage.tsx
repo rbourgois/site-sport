@@ -90,7 +90,7 @@ export default function ProductDetailPage({
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 py-4 mb-8 border-b border-outline-variant/30" id="product-page-breadcrumb">
           <div className="text-body-sm font-medium text-slate-muted flex items-center gap-1.5 flex-wrap">
             <span className="hover:text-primary cursor-pointer transition-colors" onClick={onBack}>
-              {lang === 'fr' ? 'Accueil' : lang === 'es' ? 'Inicio' : lang === 'de' ? 'Startseite' : lang === 'it' ? 'Home' : lang === 'ja' ? 'ホーム' : 'Home'}
+              {t('home')}
             </span>
             <span className="material-symbols-outlined text-[14px]">chevron_right</span>
             <span className="capitalize">{product.category}</span>
@@ -103,14 +103,7 @@ export default function ProductDetailPage({
             id="back-to-catalog-top-btn"
           >
             <span className="material-symbols-outlined text-[18px]">arrow_back</span>
-            <span>{
-              lang === 'fr' ? "Retour aux produits" : 
-              lang === 'es' ? "Volver a productos" : 
-              lang === 'de' ? "Zurück zu Produkten" :
-              lang === 'it' ? "Torna ai prodotti" :
-              lang === 'ja' ? "商品一覧に戻る" :
-              "Back to products"
-            }</span>
+            <span>{t('back_to_products')}</span>
           </button>
         </div>
 
@@ -183,14 +176,24 @@ export default function ProductDetailPage({
                   );
                 })}
                 <span className="text-slate-muted text-body-sm font-semibold ml-1.5">
-                  {product.reviews.notation} / 5 ({product.reviews.count} {lang === 'fr' ? "évaluations" : lang === 'es' ? "valoraciones" : "reviews"})
+                  {product.reviews.notation} / 5 ({product.reviews.count} {t('reviews_label')})
                 </span>
               </div>
 
               {/* Price block representation */}
               <div className="bg-surface-container-low p-4 rounded-lg my-4 border border-outline-variant flex items-center justify-between" id="selected-product-price-block">
                 <div>
-                  <p className="text-[11px] uppercase tracking-wider font-technical-data text-slate-muted mb-0.5">TARIF APEX</p>
+                  <p className="text-[11px] uppercase tracking-wider font-technical-data text-slate-muted mb-0.5">
+                    {lang === 'fr' ? "TARIF APEX" : 
+                     lang === 'es' ? "TARIFA APEX" : 
+                     lang === 'de' ? "APEX-PREIS" : 
+                     lang === 'it' ? "PREZZO APEX" : 
+                     lang === 'ja' ? "APEX価格" :
+                     lang === 'ko' ? "APEX 특별가" :
+                     lang === 'zh' ? "APEX 价格" :
+                     lang === 'ar' ? "سعر APEX" :
+                     "APEX PRICE"}
+                  </p>
                   <span className="font-headline-xl text-[26px] sm:text-headline-xl text-primary font-black leading-none block">
                     {formatPrice(product.price.price)}
                   </span>
@@ -201,7 +204,7 @@ export default function ProductDetailPage({
                     <span>{t('in_stock').toUpperCase()}</span>
                   </span>
                   <p className="text-[10px] text-slate-muted mt-1">
-                    {lang === 'fr' ? "Expédition rapide" : lang === 'es' ? "Envío rápido" : "Fast Shipping"}
+                    {t('fast_shipping')}
                   </p>
                 </div>
               </div>
@@ -210,7 +213,7 @@ export default function ProductDetailPage({
               {hasPhysicalSizes && (
                 <div className="space-y-2 mt-4 animate-in fade-in duration-200" id="selected-product-sizes-config">
                   <label className="block text-body-sm font-bold text-on-surface uppercase tracking-wider">
-                    {t('size_label')} : <span className="text-secondary font-black text-sm">{selectedSize || (lang === 'fr' ? "Sélectionnez une taille" : "Select a size")}</span>
+                    {t('size_label')} : <span className="text-secondary font-black text-sm">{selectedSize || t('select_size')}</span>
                   </label>
                   <div className="flex flex-wrap gap-2">
                     {product.sizes.map((sz) => {
@@ -240,12 +243,7 @@ export default function ProductDetailPage({
                   {sizeError && (
                     <div className="text-red-600 font-bold text-[13px] flex items-center gap-1.5 mt-2 bg-red-50 border border-red-100 px-3 py-2 rounded-lg" id="size-not-selected-error">
                       <span className="material-symbols-outlined text-[16px] leading-none text-red-600">error</span>
-                      <span>
-                        {lang === 'fr' ? "Veuillez sélectionner une taille avant d'ajouter l'article au panier." : 
-                         lang === 'es' ? "Por favor, seleccione una talla antes de añadir el artículo al carrito." :
-                         lang === 'de' ? "Bitte wählen Sie eine Größe, bevor Sie den Artikel in den Warenkorb legen." :
-                         "Please select a size before adding the item to your cart."}
-                      </span>
+                      <span>{t('select_size_alert')}</span>
                     </div>
                   )}
                 </div>
@@ -301,15 +299,15 @@ export default function ProductDetailPage({
                       : 'bg-white border-outline-variant text-primary hover:bg-surface-container-low hover:border-slate-muted'
                   }`}
                   id="product-page-compare-btn"
-                  title={lang === 'fr' ? "Comparer ce produit" : "Compare this product"}
+                  title={t('compare_product_tooltip')}
                 >
                   <span className="material-symbols-outlined">
                     {isCompared ? 'check_circle' : 'compare_arrows'}
                   </span>
                   <span>
                     {isCompared 
-                      ? (lang === 'fr' ? "COMPARÉ" : "COMPARED") 
-                      : (lang === 'fr' ? "COMPARER" : "COMPARE")}
+                      ? t('compared').toUpperCase() 
+                      : t('compare').toUpperCase()}
                   </span>
                 </button>
               </div>
@@ -318,36 +316,15 @@ export default function ProductDetailPage({
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-[11px] text-slate-muted font-medium pt-2" id="reassurance-grid">
                 <div className="flex items-center gap-1.5 bg-surface-container-low/40 p-2 rounded-md border border-outline-variant/45">
                   <span className="material-symbols-outlined text-success text-[16px]">local_shipping</span>
-                  <span>{
-                    lang === 'fr' ? "Livraison Offerte dès 50€" :
-                    lang === 'es' ? "Envío gratis desde 50€" :
-                    lang === 'de' ? "Gratisversand ab 50€" :
-                    lang === 'it' ? "Spedizione Gratis da 50€" :
-                    lang === 'ja' ? "50€以上のご購入で送料無料" :
-                    "Free shipping over 50€"
-                  }</span>
+                  <span>{t('shipping_guarantee')}</span>
                 </div>
                 <div className="flex items-center gap-1.5 bg-surface-container-low/40 p-2 rounded-md border border-outline-variant/45">
                   <span className="material-symbols-outlined text-success text-[16px]">verified</span>
-                  <span>{
-                    lang === 'fr' ? "Sélection Officielle APEX" :
-                    lang === 'es' ? "Selección oficial APEX" :
-                    lang === 'de' ? "Offizielles Apex-Sortiment" :
-                    lang === 'it' ? "Selezione ufficiale APEX" :
-                    lang === 'ja' ? "APEX 公式コレクション" :
-                    "Official APEX Gear"
-                  }</span>
+                  <span>{t('official_gear_guarantee')}</span>
                 </div>
                 <div className="flex items-center gap-1.5 bg-surface-container-low/40 p-2 rounded-md border border-outline-variant/45">
                   <span className="material-symbols-outlined text-success text-[16px]">sync_alt</span>
-                  <span>{
-                    lang === 'fr' ? "Retours sous 30 jours" :
-                    lang === 'es' ? "Cambio/Devolución 30 días" :
-                    lang === 'de' ? "30 Tage Rückgaberecht" :
-                    lang === 'it' ? "Resi entro 30 giorni" :
-                    lang === 'ja' ? "30日間返品保証" :
-                    "30-day Easy Returns"
-                  }</span>
+                  <span>{t('returns_30_days')}</span>
                 </div>
               </div>
 
@@ -359,21 +336,10 @@ export default function ProductDetailPage({
         <section className="mt-12 text-left" id="selected-product-technical-specs">
           <div className="mb-6">
             <h3 className="font-headline-lg text-[22px] sm:text-headline-lg text-primary uppercase font-extrabold tracking-tight">
-              {
-                lang === 'fr' ? "Informations Techniques" :
-                lang === 'es' ? "Información Técnica" :
-                lang === 'de' ? "Technische Informationen" :
-                lang === 'it' ? "Informazioni Tecniche" :
-                lang === 'ja' ? "製品・仕様スペック" :
-                "Technical Information"
-              }
+              {t('technical_informations_database')}
             </h3>
             <p className="text-body-sm text-slate-muted mt-1">
-              {
-                lang === 'fr' ? "Fiche synthétique issue de la base de données officielle." :
-                lang === 'es' ? "Ficha sintética de la base de datos oficial." :
-                "Official catalog database specifications guide."
-              }
+              {t('technical_informations_database_desc')}
             </p>
             <div className="w-16 h-1 bg-secondary mt-1.5"></div>
           </div>
@@ -385,7 +351,7 @@ export default function ProductDetailPage({
               <div className="flex items-center gap-1.5 text-slate-muted mb-2">
                 <span className="material-symbols-outlined text-[16px] text-primary">category</span>
                 <span className="text-[10px] font-bold uppercase tracking-wider font-sans">
-                  {lang === 'fr' ? "Catégorie" : lang === 'es' ? "Categoría" : "Category"}
+                  {t('category')}
                 </span>
               </div>
               <span className="font-sans text-body-sm text-primary font-bold capitalize">{product.category}</span>
@@ -395,7 +361,7 @@ export default function ProductDetailPage({
               <div className="flex items-center gap-1.5 text-slate-muted mb-2">
                 <span className="material-symbols-outlined text-[16px] text-primary">payments</span>
                 <span className="text-[10px] font-bold uppercase tracking-wider font-sans">
-                  {lang === 'fr' ? "Base" : "Base Price"}
+                  {t('base_price')}
                 </span>
               </div>
               <span className="font-mono text-body-sm text-primary font-bold">{product.price.price} €</span>
@@ -405,7 +371,7 @@ export default function ProductDetailPage({
               <div className="flex items-center gap-1.5 text-slate-muted mb-2">
                 <span className="material-symbols-outlined text-[16px] text-primary">straighten</span>
                 <span className="text-[10px] font-bold uppercase tracking-wider font-sans">
-                  {lang === 'fr' ? "Tailles" : "Sizes"}
+                  {t('sizes')}
                 </span>
               </div>
               <span className="font-mono text-[11px] text-primary font-semibold truncate" title={product.sizes.join(', ')}>
@@ -417,7 +383,7 @@ export default function ProductDetailPage({
               <div className="flex items-center gap-1.5 text-slate-muted mb-2">
                 <span className="material-symbols-outlined text-[16px] text-primary">verified</span>
                 <span className="text-[10px] font-bold uppercase tracking-wider font-sans">
-                  Score
+                  {t('score')}
                 </span>
               </div>
               <span className="font-sans text-body-sm text-primary font-bold flex items-center gap-1">
@@ -433,10 +399,10 @@ export default function ProductDetailPage({
           <section className="mt-16 mb-8" id="product-page-recommended-carousel">
             <div className="mb-8">
               <h3 className="font-headline-lg text-[22px] sm:text-headline-lg text-primary uppercase font-extrabold tracking-tight">
-                {lang === 'fr' ? "Suggestions alternatives" : lang === 'es' ? "Productos Recomendados" : "Expert Recommendations"}
+                {t('alternative_suggestions')}
               </h3>
               <p className="text-body-sm text-slate-muted mt-1">
-                {lang === 'fr' ? "Équipements du catalogue officiel dans la même catégorie." : "Official items matching this category class."}
+                {t('alternative_suggestions_desc')}
               </p>
               <div className="w-16 h-1 bg-secondary mt-1.5"></div>
             </div>
@@ -509,7 +475,7 @@ export default function ProductDetailPage({
                               ? 'bg-secondary border-secondary text-white'
                               : 'bg-white border-outline-variant text-primary hover:bg-surface-container-low'
                           }`}
-                          title={lang === 'fr' ? "Comparer" : "Compare"}
+                          title={t('compare')}
                         >
                           <span className="material-symbols-outlined text-[13px]">
                             {comparedProducts.some((item) => item.id === p.id) ? 'check' : 'compare_arrows'}
