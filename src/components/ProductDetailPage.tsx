@@ -14,6 +14,8 @@ interface ProductDetailPageProps {
   isCompared: boolean;
   comparedProducts: Product[];
   onToggleCompare: (product: Product) => void;
+  autoFocusSize?: boolean;
+  onClearAutoFocusSize?: () => void;
 }
 
 export default function ProductDetailPage({
@@ -27,7 +29,9 @@ export default function ProductDetailPage({
   lang,
   isCompared,
   comparedProducts,
-  onToggleCompare
+  onToggleCompare,
+  autoFocusSize,
+  onClearAutoFocusSize
 }: ProductDetailPageProps) {
   const [selectedSize, setSelectedSize] = useState<string>('');
   const [selectedQty, setSelectedQty] = useState<number>(1);
@@ -35,10 +39,13 @@ export default function ProductDetailPage({
   const [sizeError, setSizeError] = useState<boolean>(false);
 
   const getCategoryLabel = (cat: string): string => {
-    if (cat === 'vélo') return t('tag_bike');
-    if (cat === 'randonnée') return t('nav_randonnee');
-    if (cat === 'nutrition') return t('nav_nutrition');
-    if (cat === 'fitness') return t('nav_fitness');
+    const cleanCat = cat.toLowerCase().trim();
+    if (cleanCat === 'vélo' || cleanCat === 'velo') return t('nav_velo') || t('tag_bike');
+    if (cleanCat === 'randonnée' || cleanCat === 'randonnee') return t('nav_randonnee');
+    if (cleanCat === 'nutrition') return t('nav_nutrition');
+    if (cleanCat === 'fitness') return t('nav_fitness');
+    if (cleanCat === 'running') return t('nav_running');
+    if (cleanCat === 'accessoires') return t('nav_accessoires');
     return cat;
   };
 
@@ -67,6 +74,20 @@ export default function ProductDetailPage({
       setSelectedSize(product.sizes && product.sizes.length > 0 ? product.sizes[0] : 'Standard');
     }
   }, [product, hasPhysicalSizes]);
+
+  // Gérer l'éventuelle auto-sélection/focus de la taille
+  useEffect(() => {
+    if (autoFocusSize && hasPhysicalSizes) {
+      setSizeError(true);
+      setTimeout(() => {
+        const element = document.getElementById('selected-product-sizes-config');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }, 150);
+      onClearAutoFocusSize?.();
+    }
+  }, [autoFocusSize, hasPhysicalSizes, onClearAutoFocusSize]);
 
   // Trouver d'autres produits de la même catégorie pour les recommandations (excluant le produit actuel)
   const recommendedProducts = useMemo(() => {

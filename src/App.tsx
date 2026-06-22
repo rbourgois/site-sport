@@ -738,6 +738,192 @@ const translationDictionary: Record<string, Record<string, string>> = {
     "noir": "黑色",
     "blanc": "白色",
     "gris": "灰色"
+  },
+  ru: {
+    "vélo d'appartement": "Велотренажер",
+    "vélo tout chemin": "Гибридный велосипед",
+    "vélo de ville enjambement bas": "Городской велосипед с низкой рамой",
+    "vélo de ville": "Городской велосипед",
+    "vélo de route": "Шоссейный велосипед",
+    "vélo route": "Шоссейный велосипед",
+    "vélo vtt": "Горный велосипед (MTB)",
+    "vtt": "Горный велосипед (MTB)",
+    "poche à eau": "Питьевая система/гидратор",
+    "bâton de randonnée": "Треккинговая палка",
+    "bâton ultra-compact": "Ультракомпактная палка",
+    "bâton": "Треккинговая палка",
+    "lampe frontale": "Налобный фонарь",
+    "gourde": "Фляга/бутылка для воды",
+    "repas lyophilisé": "Сублимированное питание",
+    "pâtes à la bolognaise": "Паста Болоньезе",
+    "riz et poulet au curry": "Рис с курицей карри",
+    "purée de pomme de terre à la viande hachée": "Картофельное пюре с фаршем",
+    "sans gluten": "Без глютена",
+    "tapis de sol": "Коврик для фитнеса",
+    "tapis de course": "Беговая дорожка",
+    "tapis de protection sol": "Защитный коврик под тренажер",
+    "tapis de marche": "Дорожка для ходьбы",
+    "vélo elliptique": "Эллиптический тренажер",
+    "rameur": "Гребной тренажер",
+    "montre gps de sport": "Спортивные GPS-часы",
+    "montre connectée gps": "Смарт-часы с GPS",
+    "montre connectée": "Смарт-часы",
+    "montre gps": "GPS-часы",
+    "popote": "Туристический набор посуды",
+    "isotherme inox": "Термос из нержавеющей стали",
+    "isotherme": "Термос/термоизоляционный",
+    "bouchon à ouverture rapide": "Крышка быстрого открытия",
+    "pour la randonnée": "для туризма/походов",
+    "en acier inox": "из нержавеющей стали",
+    "anti-adhésif": "Антипригарный",
+    "personnes": "чел.",
+    "éléments": "предметов",
+    "réglage rapide et précis": "Быстрая и точная регулировка",
+    "connecté et auto-alimenté": "Смарт-подключение и автономное питание",
+    "auto-alimenté et connecté": "Автономное питание и смарт-подключение",
+    "résistance motorisée": "Моторизованное сопротивление",
+    "auto-alimenté": "Автономное питание",
+    "connecté": "Интерактивный/смарт",
+    "pliable": "Складной",
+    "garanti par decathlon": "Гарантия Decathlon",
+    "cadre haut": "Высокая рама",
+    "cadre bas": "Низкая рама",
+    "enjambement bas": "Удобная посадка",
+    "bleu nuit": "Темно-синий (полуночный)",
+    "bleu tempête": "Штормовой синий",
+    "gris foncé": "Темно-серый",
+    "gris clair": "Светло-серый",
+    "vert bouteille": "Бутылочный зеленый",
+    "vert amande": "Миндальный зеленый",
+    "bleu": "Синий",
+    "vert": "Зеленый",
+    "noir": "Черный",
+    "blanc": "Белый",
+    "gris": "Серый"
+  },
+  hi: {
+    "vélo d'appartement": "व्यायाम बाइक",
+    "vélo tout chemin": "हाइब्रिड साइकिल",
+    "vélo de ville enjambement bas": "कम ऊंचाई वाली सिटी साइकिल",
+    "vélo de ville": "सिटी साइकिल",
+    "vélo de route": "रोड साइकिल",
+    "vélo route": "रोд साइकिल",
+    "vélo vtt": "पहाड़ी साइकिल (MTB)",
+    "vtt": "पहाड़ी साइकिल",
+    "poche à eau": "पानी की थैली",
+    "bâton de randonnée": "ट्रेकिंग पोल",
+    "bâton ultra-compact": "अल्ट्रा कॉम्पेक्ट स्टिक",
+    "bâton": "ट्रेकिंग पोल",
+    "lampe frontale": "सिर वाली लाइट (हेडलैंप)",
+    "gourde": "पानी की बोतल",
+    "repas lyophilisé": "सूखा भोजन (लिओफिलाइज्ड)",
+    "pâtes à la bolognaise": "पास्ता बोलोनेसे",
+    "riz et poulet au curry": "चिकन करी चावल",
+    "purée de pomme de terre à la viande hachée": "आलू और कीमा प्यूरी",
+    "sans gluten": "ग्लूटेन मुक्त",
+    "tapis de sol": "योग/व्यायाम चटाई",
+    "tapis de course": "ट्रेडमिल",
+    "tapis de protection sol": "फर्श सुरक्षा चटाई",
+    "tapis de marche": "चलने की मशीन",
+    "vélo elliptique": "दीर्घवृत्ताकार व्यायाम मशीन (इलिप्टिकल)",
+    "rameur": "रोइंग मशीन",
+    "montre gps de sport": "जीपीएस स्पोर्ट्स घड़ी",
+    "montre connectée gps": "जीपीएस स्मार्ट वॉच",
+    "montre connectée": "स्मार्ट वॉच",
+    "montre gps": "जीपीएस घड़ी",
+    "popote": "शिविर बर्तन सेट",
+    "isotherme inox": "स्टेनलेस स्टील वैक्यूम फ्लास्क",
+    "isotherme": "थर्मस",
+    "bouchon à ouverture rapide": "त्वरित खुलने वाला ढक्कन",
+    "pour la randonnée": "ट्रेकिंग के लिए",
+    "en acier inox": "स्टेनलेस स्टील",
+    "anti-adhésif": "नॉन-स्टिक",
+    "personnes": "व्यक्ति",
+    "éléments": "तत्व/भाग",
+    "réglage rapide et précis": "त्वरित और सटीक सेटिंग",
+    "connecté et auto-alimenté": "कनेक्टेड और स्व-चालित",
+    "auto-alimenté et connecté": "स्व-चालित और कनेक्टेड",
+    "résistance motorisée": "मोटर चालित प्रतिरोध",
+    "auto-alimenté": "स्व-चालित",
+    "connecté": "कनेक्टेड",
+    "pliable": "फोल्डिंग",
+    "garanti par decathlon": "डेकाथलॉन गारंटी",
+    "cadre haut": "ऊंचा फ्रेम",
+    "cadre bas": "नीचा फ्रेम",
+    "enjambement bas": "लो स्टेप-थ्रू",
+    "bleu nuit": "आधी रात जैसा नीला (डार्क)",
+    "bleu tempête": "तूफानी नीला",
+    "gris foncé": "गहरा धूसर / ग्रे",
+    "gris clair": "हल्का धूसर / ग्रे",
+    "vert bouteille": "बोतल हरा",
+    "vert amande": "बादाम हरा",
+    "bleu": "नीला",
+    "vert": "हरा",
+    "noir": "काला",
+    "blanc": "सफेद",
+    "gris": "धूसर/ग्रे"
+  },
+  da: {
+    "vélo d'appartement": "Motionscykel",
+    "vélo tout chemin": "Hybridcykel",
+    "vélo de ville enjambement bas": "Klassisk damecykel",
+    "vélo de ville": "Citybike",
+    "vélo de route": "Racercykel",
+    "vélo route": "Racercykel",
+    "vélo vtt": "Mountainbike (MTB)",
+    "vtt": "Mountainbike (MTB)",
+    "poche à eau": "Drikkeblære/Vandblære",
+    "bâton de randonnée": "Vandrestav",
+    "bâton ultra-compact": "Ultrakompakt vandrestav",
+    "bâton": "Vandrestav",
+    "lampe frontale": "Pandelampe",
+    "gourde": "Drikkedunk",
+    "repas lyophilisé": "Frysetørret mad",
+    "pâtes à la bolognaise": "Pasta Bolognese",
+    "riz et poulet au curry": "Ris med kylling i karry",
+    "purée de pomme de terre à la viande hachée": "Kartoffelmos med hakket kød",
+    "sans gluten": "Glutenfri",
+    "tapis de sol": "Træningsmåtte",
+    "tapis de course": "Løbebånd",
+    "tapis de protection sol": "Underlagsmåtte til fitnessudstyr",
+    "tapis de marche": "Gåbånd",
+    "vélo elliptique": "Crosstrainer",
+    "rameur": "Romaskine",
+    "montre gps de sport": "GPS-sportsur",
+    "montre connectée gps": "GPS-smartwatch",
+    "montre connectée": "Smartwatch",
+    "montre gps": "GPS-ur",
+    "popote": "Camping kogesæt",
+    "isotherme inox": "Termoflaske i rustfrit stål",
+    "isotherme": "Termo-isoleret",
+    "bouchon à ouverture rapide": "Hurtiglukning",
+    "pour la randonnée": "til vandring",
+    "en acier inox": "af rustfrit stål",
+    "anti-adhésif": "Slip-let belægning",
+    "personnes": "Personer",
+    "éléments": "Dele",
+    "réglage rapide et précis": "Hurtig og præcis justering",
+    "connecté et auto-alimenté": "Opkoblet og selvgenererende",
+    "auto-alimenté et connecté": "Selvgenererende og opkoblet",
+    "résistance motorisée": "Motoriseret modstand",
+    "auto-alimenté": "Selvgenererende",
+    "connecté": "Smart-opkoblet",
+    "pliable": "Sammenklappelig",
+    "garanti par decathlon": "Garanteret af Decathlon",
+    "cadre haut": "Høj indstigning",
+    "cadre bas": "Lav indstigning",
+    "enjambement bas": "Lav indstigning",
+    "bleu nuit": "Natsort/Mørkeblå",
+    "bleu tempête": "Stormblå",
+    "gris foncé": "Mørkegrå",
+    "gris clair": "Lysegrå",
+    "vert bouteille": "Flaskegrøn",
+    "vert amande": "Mandelgrøn",
+    "bleu": "Blå",
+    "vert": "Grøn",
+    "noir": "Sort",
+    "blanc": "Hvid",
+    "gris": "Grå"
   }
 };
 
@@ -2649,6 +2835,420 @@ const translations: Record<string, Record<string, string>> = {
     technical_informations_database: "المعلومات الفنية",
     technical_informations_database_desc: "دليل المواصفات الموحد من قاعدة البيانات الرسمية.",
     select_size_alert: "يرجى اختيار المقاس قبل إضافة المنتج إلى السلة."
+  },
+  ru: {
+    reset: "Сбросить",
+    filters: "Фильтры",
+    apply: "Применить",
+    compare: "Сравнить",
+    compared: "Сравнено",
+    join_elite_apex: "Присоединяйтесь к спортивной элите команды APEX",
+    field_name_label: "Имя / Фамилия",
+    field_email_label: "Электронная почта",
+    field_password_label: "Пароль",
+    field_newsletter_label: "Подписаться на еженедельные технические характеристики",
+    btn_submit_account: "Подтвердить и создать личный кабинет",
+    account_success_toast: "Добро пожаловать в APEX ! Ваш личный кабинет создан.",
+    comparison_title: "Экспертный компаратор APEX",
+    comparison_desc: "Принимайте взвешенные решения. Сравнивайте до 3 товаров из одной категории лицом к лицу, чтобы мгновенно проанализировать цены, отзывы клиентов и наличие.",
+    comparison_clean_all: "Очистить всё",
+    comparison_remove_all: "Убрать все товары",
+    comparison_remove_item: "Убрать этот товар",
+    comparison_view_details: "Посмотреть полную карточку товара",
+    comparison_public_price: "Розничная цена",
+    comparison_best_price: "Лучшая цена",
+    comparison_rider_reviews: "Отзывы спортсменов",
+    comparison_top_rated: "Высокая оценка",
+    comparison_sizes_available: "Доступные размеры",
+    comparison_choose_size: "Выбрать размер",
+    comparison_add_product: "Добавить товар",
+    comparison_click_to_select: "Нажмите здесь, чтобы выбрать модель",
+    comparison_click_to_select_catalog: "Нажмите здесь, чтобы открыть каталог для анализа",
+    comparison_spec: "Характеристика",
+    comparison_quick_action: "Быстрый заказ",
+    comparison_back_to_grid: "Назад к таблице",
+    comparison_no_models: "Модели не найдены",
+    comparison_cleared_toast: "Сравнение очищено",
+    comparison_max_reached_toast: "Вы можете сравнивать не более 3 товаров одновременно.",
+    comparison_added_toast: "Товар добавлен в сравнение",
+    comparison_removed_toast: "Товар удален из сравнения",
+    technical_info: "Техническая информация",
+    specifications_guide: "Сводная спецификация из официальной базы данных.",
+    category: "Категория",
+    base_price: "Базовая цена",
+    sizes: "Размеры",
+    score: "Оценка",
+    returns_30_days: "Возврат в течение 30 дней",
+    shipping_guarantee: "Бесплатная доставка от 50 €",
+    official_gear_guarantee: "Официальный выбор APEX",
+    compare_product_tooltip: "Сравнить этот товар",
+    products_label: "Товары",
+    reviews_label: "отзывов",
+    comparison_reminder_tip: "Подсказка: чтобы запустить сравнение на одном экране, добавьте второй товар из той же категории, кликнув на быстрые подсказки выше!",
+    comparison_select_slot: "Выбрать товар (Слот №{slot})",
+    comparison_select_slot_sub: "Выберите модель из той же категории для анализа.",
+    comparison_search_in_category: "Искать в категории: {category}...",
+    comparison_search_all: "Искать по названию, категории, технологиям...",
+    comparison_smart_filter: "Умный фильтр: показаны только товары из категории «{category}» для корректного сравнения.",
+    comparison_no_models_sub: "Измените ключевое слово или очистите поиск, чтобы увидеть все доступные товары.",
+    comparison_incoherent_toast: "Несоответствие: вы можете сравнивать только товары из одной категории (например: {category}).",
+    create_account: "Создать аккаунт",
+    cart: "Корзина",
+    search_placeholder: "Поиск товаров...",
+    free_shipping: "БЕСПЛАТНАЯ ДОСТАВКА ОТ 50 €",
+    nav_velo: "Велоспорт",
+    nav_randonnee: "Туризм",
+    nav_fitness: "Фитнес",
+    nav_running: "Бег",
+    nav_nutrition: "Спортивное питание",
+    nav_accessoires: "Аксессуары",
+    hero_tag: "СЕРИЯ 900 • МАКСИМАЛЬНАЯ ЭФФЕКТИВНОСТЬ",
+    hero_title: "ПРЕОДОЛЕВАЙТЕ СВОИ ПРЕДЕЛЫ С APEX.",
+    hero_desc: "Откройте для себя нашу новую коллекцию высококлассных шоссейных велосипедов. Создана для скорости, протестирована на выносливость.",
+    view_collection: "СМОТРЕТЬ КОЛЛЕКЦИЮ",
+    learn_more: "ПОДРОБНЕЕ",
+    categories_title: "КАТЕГОРИИ",
+    discover: "ОТКРЫТЬ ДЛЯ СЕБЯ",
+    featured_title: "ПОПУЛЯРНЫЕ ТОВАРЫ",
+    featured_desc: "Экипировка, которую чаще всего выбирают наши атлеты.",
+    view_all: "СМОТРЕТЬ ВСЕ",
+    tag_bike: "Велоэкипировка",
+    tag_tech: "Технологичные аксессуары",
+    in_stock: "В наличии",
+    low_stock: "Мало на складе",
+    brand_title: "ИНЖЕНЕРИЯ НА СЛУЖБЕ СПОРТИВНЫХ ДОСТИЖЕНИЙ.",
+    brand_desc: "Каждый продукт Apex тестируется профессионалами в экстремальных условиях для обеспечения безупречной надежности.",
+    stat_engineers: "ИНЖЕНЕРЫ",
+    stat_satisfaction: "УДОВЛЕТВОРЕННОСТЬ",
+    footer_about: "Технический опыт для требовательных спортсменов. Экипировка, разработанная для победителей.",
+    customer_service: "Служба поддержки",
+    company: "Компания",
+    footer_cs: "Поддержка клиентов",
+    footer_shipping: "Информация о доставке",
+    footer_returns: "Возврат товара",
+    footer_stores: "Найти магазин",
+    footer_contact: "Связаться с нами",
+    footer_privacy: "Политика конфиденциальности",
+    newsletter_desc: "Получайте наши последние технические обзоры.",
+    newsletter_placeholder: "Ваш email",
+    rights: "Все права защищены.",
+    all_products: "Все товары",
+    sort_by: "Сортировка",
+    sort_relevance: "Релевантность",
+    sort_price_asc: "Сначала дешевые",
+    sort_price_desc: "Сначала дорогие",
+    sort_rating: "По рейтингу",
+    size_label: "Размер",
+    add_to_cart: "В корзину",
+    no_products: "Товары по вашему запросу не найдены.",
+    no_category_products_title: "Скоро в продаже!",
+    no_category_products_desc: "Сейчас мы готовим новую подборку профессиональных спортивных товаров для линейки",
+    no_category_products_button: "Вернуться к популярным товарам",
+    cart_title: "Ваша корзина",
+    cart_empty: "Ваша корзина пуста",
+    cart_total: "Итого",
+    cart_checkout: "Оформить заказ",
+    continue_shopping: "Продолжить покупки",
+    checkout_success_title: "Заказ подтвержден !",
+    checkout_success_desc: "На вашу электронную почту отправлено письмо с подтверждением и деталями доставки. Спасибо за доверие к APEX SPORTS !",
+    checkout_success_btn: "Закрыть",
+    item_removed: "Товар удален из корзины",
+    item_added: "Товар добавлен в корзину",
+    quantity: "Количество",
+    order_summary: "Детали заказа",
+    subtotal: "Подытог",
+    shipping_cost: "Доставка",
+    free: "Бесплатно",
+    shipping_note: "Бесплатная доставка при заказе от 50 € !",
+    newsletter_success: "Спасибо ! Вы успешно подписались на рассылку новостей APEX SPORTS.",
+    about_us_title: "О компании APEX",
+    quick_view: "Быстрый просмотр",
+    select_size: "Пожалуйста, выберите размер",
+    close: "Закрыть",
+    home: "Главные страницы",
+    back_to_products: "Назад к товарам",
+    fast_shipping: "Быстрая доставка",
+    alternative_suggestions: "Альтернативные предложения",
+    alternative_suggestions_desc: "Официальные товары из той же категории в нашем каталоге.",
+    technical_informations_database: "Техническая информация",
+    technical_informations_database_desc: "Сводная спецификация из официальной базы данных.",
+    select_size_alert: "Пожалуйста, выберите размер перед добавлением товара в корзину."
+  },
+  hi: {
+    reset: "रीसेट करें",
+    filters: "फिल्टर्स",
+    apply: "लागू करें",
+    compare: "तुलना करें",
+    compared: "तुलना की गई",
+    join_elite_apex: "APEX टीम के विशिष्ट खेल समुदाय में शामिल हों",
+    field_name_label: "नाम / उपनाम",
+    field_email_label: "ईमेल पता",
+    field_password_label: "पासवर्ड",
+    field_newsletter_label: "साप्ताहिक तकनीकी विशिष्टताओं के लिए सदस्यता लें",
+    btn_submit_account: "सत्यापित करें और मेरा खाता बनाएं",
+    account_success_toast: "APEX में आपका स्वागत है ! आपका सदस्य खाता सफलतापूर्वक बनाया गया है।",
+    comparison_title: "APEX विशेषज्ञ तुलना उपकरण",
+    comparison_desc: "सोच-समझकर निर्णय लें। कीमतों, ग्राहक समीक्षाओं और उपलब्धता का तुरंत विश्लेषण करने के लिए एक ही श्रेणी के 3 उत्पादों की आमने-सामने तुलना करें।",
+    comparison_clean_all: "सभी हटाएँ",
+    comparison_remove_all: "सभी उत्पाद हटाएँ",
+    comparison_remove_item: "यह उत्पाद हटाएँ",
+    comparison_view_details: "पूरा विवरण देखें",
+    comparison_public_price: "पब्लिक मूल्य",
+    comparison_best_price: "सर्वोत्तम मूल्य",
+    comparison_rider_reviews: "राइडर समीक्षाएं",
+    comparison_top_rated: "सर्वश्रेष्ठ रेटेड",
+    comparison_sizes_available: "उपलब्ध आकार",
+    comparison_choose_size: "आकार चुनें",
+    comparison_add_product: "उत्पाद जोड़ें",
+    comparison_click_to_select: "मॉडल का चयन करने के लिए यहाँ क्लिक करें",
+    comparison_click_to_select_catalog: "विशेषज्ञ विश्लेषण कैटलॉग खोलने के लिए यहाँ क्लिक करें",
+    comparison_spec: "विशेषता",
+    comparison_quick_action: "त्वरित आर्डर",
+    comparison_back_to_grid: "तालिका पर वापस जाएँ",
+    comparison_no_models: "कोई модель नहीं मिली",
+    comparison_cleared_toast: "तुलना सूची साफ़ की गई",
+    comparison_max_reached_toast: "आप अधिकतम 3 उत्पादों की तुलना कर सकते हैं।",
+    comparison_added_toast: "उत्पाद को तुलना सूची में जोड़ा गया",
+    comparison_removed_toast: "उत्पाद को तुलना सूची से हटाया गया",
+    technical_info: "तकनीकी जानकारी",
+    specifications_guide: "आधिकारिक डेटाबेस से संकलित तकनीकी विनिर्देश पत्र।",
+    category: "श्रेणी",
+    base_price: "मूल मूल्य",
+    sizes: "आकार",
+    score: "समीक्षा स्कोर",
+    returns_30_days: "30-दिन की वापसी सुविधा",
+    shipping_guarantee: "50€ से अधिक के आर्डर पर मुफ्त डिलीवरी",
+    official_gear_guarantee: "आधिकारिक APEX चैन",
+    compare_product_tooltip: "इस उत्पाद की तुलना करें",
+    products_label: "उत्पाद",
+    reviews_label: "समीक्षाएं",
+    comparison_reminder_tip: "सुझाव: एक साथ तुलना शुरू करने के लिए, ऊपर दिए गए त्वरित सुझावों में से उसी श्रेणी का दूसरा उत्पाद जोड़ें !",
+    comparison_select_slot: "उत्पाद चुनें (स्थान #{slot})",
+    comparison_select_slot_sub: "तकनीकी विश्लेषण के लिए उसी श्रेणी से एक मॉडल चुनें।",
+    comparison_search_in_category: "श्रेणी में खोजें: {category}...",
+    comparison_search_all: "नाम, श्रेणी या तकनीक द्वारा खोजें...",
+    comparison_smart_filter: "स्मार्ट फ़िल्टर: सटीक तुलना के लिए केवल \"{category}\" श्रेणी के उत्पाद दिखाए जा रहे हैं।",
+    comparison_no_models_sub: "सभी उपलब्ध उत्पाद देखने के लिए खोज शब्द बदलें या खोज साफ़ करें।",
+    comparison_incoherent_toast: "असंगतता: आप केवल एक ही श्रेणी के उत्पादों की तुलना कर सकते हैं (जैसे: {category})।",
+    create_account: "खाता बनाएं",
+    cart: "कार्ट",
+    search_placeholder: "उत्पाद खोजें...",
+    free_shipping: "50€ से ऊपर के आर्डर पर मुफ़्त डिलीवरी",
+    nav_velo: "साइकिल",
+    nav_randonnee: "ट्रेकिंग",
+    nav_fitness: "फिटनेस",
+    nav_running: "रनिंग",
+    nav_nutrition: "खेल पोषण",
+    nav_accessoires: "सामान / एक्सेसरीज",
+    hero_tag: "900 सीरीज • बेजोड़ प्रदर्शन",
+    hero_title: "APEX के साथ सीमाओं को पार करें।",
+    hero_desc: "हमारा नया हाई-परफॉर्मेंस रोड साइकिलिंग कलेक्शन देखें। गति के लिए डिज़ाइन किया गया, सहनशक्ति के लिए परखा गया।",
+    view_collection: "कलेक्शन देखें",
+    learn_more: "और जानें",
+    categories_title: "श्रेणियाँ",
+    discover: "अन्वेषण करें",
+    featured_title: "प्रमुख उत्पाद",
+    featured_desc: "हमारे एथलीटों द्वारा सबसे अधिक पसंद किए जाने वाले उपकरण।",
+    view_all: "सभी देखें",
+    tag_bike: "साइकिल गियर",
+    tag_tech: "तकनीकी सामान",
+    in_stock: "स्टॉक में है",
+    low_stock: "कम स्टॉक उपलब्ध",
+    brand_title: "खेल प्रदर्शन और बेहतरीन इंजीनियरिंग का संगम।",
+    brand_desc: "हर एक APEX उत्पाद को पेशेवरों द्वारा कठिन परिस्थितियों में परखा गया है ताकि आपको बिना किसी रुकावट के विश्वसनीयता मिल सके।",
+    stat_engineers: "इंजीनियर्स",
+    stat_satisfaction: "संतुष्टि दर",
+    footer_about: "मांग करने वाले एथलीटों के लिए तकनीकी विशेषज्ञता। विजेताओं के लिए तैयार गियर।",
+    customer_service: "ग्राहक सेवा",
+    company: "कंपनी की जानकारी",
+    footer_cs: "ग्राहक सहायता",
+    footer_shipping: "डिलिवरी जानकारी",
+    footer_returns: "वापसी और बदलें",
+    footer_stores: "स्टोर ढूंढें",
+    footer_contact: "हमसे संपर्क करें",
+    footer_privacy: "गोपनीयता नीति",
+    newsletter_desc: "हमारी नवीनतम तकनीकी विशेषताएं और विशेष जानकारी प्राप्त करें।",
+    newsletter_placeholder: "अपना ईमेल प्रविष्ट करें",
+    rights: "सभी अधिकार सुरक्षित हैं।",
+    all_products: "सभी उत्पाद",
+    sort_by: "सॉर्ट करें",
+    sort_relevance: "प्रासंगिकता",
+    sort_price_asc: "मूल्य: कम से अधिक",
+    sort_price_desc: "मूल्य: अधिक से कम",
+    sort_rating: "सर्वश्रेष्ठ रेटिंग",
+    size_label: "आकार",
+    add_to_cart: "कार्ट में जोड़ें",
+    no_products: "आपकी खोज से मेल खाता कोई उत्पाद नहीं मिला।",
+    no_category_products_title: "जल्द आ रहा है !",
+    no_category_products_desc: "हम वर्तमान में इस श्रेणी के लिए पेशेवर-श्रेणी के खेल उत्पादों के नए स्टॉक की तैयारी कर रहे हैं:",
+    no_category_products_button: "प्रमुख उत्पादों पर वापस जाएँ",
+    cart_title: "आपका कार्ट",
+    cart_empty: "आपका कार्ट खाली है",
+    cart_total: "कुल योग",
+    cart_checkout: "चेкआउट करें",
+    continue_shopping: "खरीदारी जारी रखें",
+    checkout_success_title: "ऑर्डर की पुष्टि हो गई !",
+    checkout_success_desc: "आपके आर्डर के विवरण और शिपिंग जानकारी के साथ एक पुष्टिकरण ईमेल भेजा गया है। APEX SPORTS पर विश्वास करने के लिए धन्यवाद !",
+    checkout_success_btn: "बंद करें",
+    item_removed: "उत्पाद कार्ट से हटाया गया",
+    item_added: "उत्पाद कार्ट में जोड़ा गया",
+    quantity: "मात्रा",
+    order_summary: "ऑर्डर सारांश",
+    subtotal: "उप-योग",
+    shipping_cost: "शिपिंग शुल्क",
+    free: "मुफ़्त",
+    shipping_note: "50 € से अधिक के ऑर्डर पर मुफ्त शिपिंग उपलब्ध!",
+    newsletter_success: "धन्यवाद ! APEX SPORTS तकनीकी न्यूज़लेटर के लिए आपका पंजीकरण सफल रहा।",
+    about_us_title: "APEX के बारे में",
+    quick_view: "त्वरित झलक",
+    select_size: "कृपया एक आकार चुनें",
+    close: "बंद करें",
+    home: "मुख्य पृष्ठ",
+    back_to_products: "उत्पादों पर वापस जाएँ",
+    fast_shipping: "त्वरित शिपिंग",
+    alternative_suggestions: "वैकल्पिक विकल्प",
+    alternative_suggestions_desc: "आधिकारिक कैटलॉग से उसी श्रेणी के अनुशंसित गियर।",
+    technical_informations_database: "तकनीकी जानकारी",
+    technical_informations_database_desc: "आधिकारिक विशिष्टताओं के आधार पर उत्पाद गाइड पत्रक।",
+    select_size_alert: "कृपया कार्ट में जोड़ने से पहले एक आकार सिलेक्ट करें।"
+  },
+  da: {
+    reset: "Nulstil",
+    filters: "Filtre",
+    apply: "Anvend",
+    compare: "Sammenlign",
+    compared: "Sammenlignet",
+    join_elite_apex: "Bliv en del af sportseliten på APEX-holdet",
+    field_name_label: "Fornavn / Efternavn",
+    field_email_label: "E-mailadresse",
+    field_password_label: "Adgangskode",
+    field_newsletter_label: "Abonner på ugentlige tekniske specifikationer",
+    btn_submit_account: "Bekræft og opret konto",
+    account_success_toast: "Velkommen til APEX! Din medlemskonto er nu oprettet.",
+    comparison_title: "APEX Ekspertsammenligning",
+    comparison_desc: "Tag velinformerede beslutninger. Sammenlign op til 3 produkter fra samme kategori side om side for øjeblikkeligt at sammenligne priser, anmeldelser og tilgængelighed.",
+    comparison_clean_all: "Ryd alt",
+    comparison_remove_all: "Fjern alle produkter",
+    comparison_remove_item: "Fjern dette produkt",
+    comparison_view_details: "Se alle produktdetaljer",
+    comparison_public_price: "Vejledende pris",
+    comparison_best_price: "Bedste pris",
+    comparison_rider_reviews: "Rytteranmeldelser",
+    comparison_top_rated: "Bedst bedømt",
+    comparison_sizes_available: "Tilgængelige størrelser",
+    comparison_choose_size: "Vælg størrelse",
+    comparison_add_product: "Tilføj produkt",
+    comparison_click_to_select: "Klik her for at vælge en model",
+    comparison_click_to_select_catalog: "Klik her for at åbne analysekataloget",
+    comparison_spec: "Specifikation",
+    comparison_quick_action: "Hurtigbestilling",
+    comparison_back_to_grid: "Tilbage til oversigten",
+    comparison_no_models: "Ingen modeller fundet",
+    comparison_cleared_toast: "Sammenligningsliste nulstillet",
+    comparison_max_reached_toast: "Du kan maksimalt sammenligne 3 produkter ad gangen.",
+    comparison_added_toast: "Produkt føjet til sammenligning",
+    comparison_removed_toast: "Produkt fjernet fra sammenligning",
+    technical_info: "Teknisk information",
+    specifications_guide: "Teknisk datablad fra det officielle katalog.",
+    category: "Kategori",
+    base_price: "Basispris",
+    sizes: "Størrelser",
+    score: "Score",
+    returns_30_days: "30 dages returret",
+    shipping_guarantee: "Fri fragt ved køb over 50€",
+    official_gear_guarantee: "Officielt APEX-udvalg",
+    compare_product_tooltip: "Sammenlign dette produkt",
+    products_label: "Produkter",
+    reviews_label: "anmeldelser",
+    comparison_reminder_tip: "Tip: For at starte en sammenligning side om side skal du tilføje et andet produkt fra samme kategori ved at klikke på en af de hurtige forslag ovenfor!",
+    comparison_select_slot: "Vælg produkt (Plads #{slot})",
+    comparison_select_slot_sub: "Vælg en model fra samme kategori til analyse.",
+    comparison_search_in_category: "Søg i kategorien: {category}...",
+    comparison_search_all: "Søg efter mærke, teknologi eller kategori...",
+    comparison_smart_filter: "Smart filter: Kun produkter fra kategorien „{category}“ vises for en realistisk sammenligning.",
+    comparison_no_models_sub: "Ændr søgeordet eller ryd søgningen for at se alle tilgængelige produkter.",
+    comparison_incoherent_toast: "Inkonsistent: Du kan kun sammenligne produkter fra samme kategori (f.eks. {category}).",
+    create_account: "Opret konto",
+    cart: "Kurv",
+    search_placeholder: "Søg efter et produkt...",
+    free_shipping: "FRI FRAGT VED KØB OVER 50€",
+    nav_velo: "Cykel",
+    nav_randonnee: "Vandring",
+    nav_fitness: "Fitness",
+    nav_running: "Løb",
+    nav_nutrition: "Sportsernæring",
+    nav_accessoires: "Tilbehør",
+    hero_tag: "900 SERIE • PERFORMANCE",
+    hero_title: "BRYD DINE GRÆNSER MED APEX.",
+    hero_desc: "Oplev vores nye kollektion af racercykler i høj kvalitet. Designet til fart, testet til udholdenhed.",
+    view_collection: "SE KOLLEKTIONEN",
+    learn_more: "LÆS MERE",
+    categories_title: "KATEGORIER",
+    discover: "OPDAG",
+    featured_title: "UDVALGTE PRODUKTER",
+    featured_desc: "Udstyr de professionelle atleter foretrækker.",
+    view_all: "SE ALT",
+    tag_bike: "Cykeludstyr",
+    tag_tech: "Teknologisk tilbehør",
+    in_stock: "På lager",
+    low_stock: "Få styk tilbage",
+    brand_title: "INGENIØRKUNST DER DRIVER PRÆSTATIONEN.",
+    brand_desc: "Hvert eneste Apex-produkt er testet af professionelle under de mest ekstreme forhold for at sikre kompromisløs pålidelighed.",
+    stat_engineers: "INGENIØRER",
+    stat_satisfaction: "TILFREDSHED",
+    footer_about: "Teknisk ekspertise til krævende atleter. Gear Engineered for Winners.",
+    customer_service: "Kundeservice",
+    company: "Virksomhed",
+    footer_cs: "Kundesupport",
+    footer_shipping: "Leveringsinfo",
+    footer_returns: "Retur og bytte",
+    footer_stores: "Find butik",
+    footer_contact: "Kontakt os",
+    footer_privacy: "Privatlivspolitik",
+    newsletter_desc: "Modtag vores seneste tekniske specifikationer.",
+    newsletter_placeholder: "Din e-mail",
+    rights: "Alle rettigheder forbeholdes.",
+    all_products: "Alle produkter",
+    sort_by: "Sortér efter",
+    sort_relevance: "Relevans",
+    sort_price_asc: "Pris: Lav til høj",
+    sort_price_desc: "Pris: Høj til lav",
+    sort_rating: "Bedste bedømmelser",
+    size_label: "Størrelse",
+    add_to_cart: "Tilføj til kurv",
+    no_products: "Der blev ikke fundet nogle produkter matching din søgning.",
+    no_category_products_title: "Kommer snart!",
+    no_category_products_desc: "We forbereder i øjeblikket vores nye udvalg af professionelt sportsudstyr til serien",
+    no_category_products_button: "Tilbage til udvalgte produkter",
+    cart_title: "Din kurv",
+    cart_empty: "Din kurv er tom",
+    cart_total: "Total",
+    cart_checkout: "Gå til betaling",
+    continue_shopping: "Fortsæt med at handle",
+    checkout_success_title: "Ordre bekræftet!",
+    checkout_success_desc: "En e-mail med din ordreoversigt og forsendelsesoplysninger er blevet sendt. Tak fordi du handler hos APEX SPORTS!",
+    checkout_success_btn: "Luk",
+    item_removed: "Produkt fjernet fra kurven",
+    item_added: "Produkt tilføjet til kurven",
+    quantity: "Antal",
+    order_summary: "Kurvsammenfatning",
+    subtotal: "Subtotal",
+    shipping_cost: "Forsendelse",
+    free: "Gratis",
+    shipping_note: "Gratis forsendelse for alle ordrer over 50 €!",
+    newsletter_success: "Tak! Din tilmelding til APEX SPORTS' tekniske nyhedsbrev er bekræftet.",
+    about_us_title: "Om APEX",
+    quick_view: "Hurtig visning",
+    select_size: "Vælg venligst en størrelse",
+    close: "Luk",
+    home: "Forside",
+    back_to_products: "Tilbage til produkter",
+    fast_shipping: "Hurtig levering",
+    alternative_suggestions: "Alternative forslag",
+    alternative_suggestions_desc: "Officielt udstyr matcher denne kategori fra det officielle katalog.",
+    technical_informations_database: "Teknisk information",
+    technical_informations_database_desc: "Teknisk datablad fra det officielle katalog.",
+    select_size_alert: "Vælg venligst en størrelse, før du lægger varen i kurven."
   }
 };
 
@@ -2664,7 +3264,10 @@ const currencyRates: Record<string, { symbol: string; rate: number; pos: 'left' 
   TRY: { symbol: "₺", rate: 35.0, pos: 'left' },
   CNY: { symbol: "¥", rate: 8.0, pos: 'left' },
   KRW: { symbol: "₩", rate: 1500, pos: 'left' },
-  AED: { symbol: "د.إ", rate: 4.0, pos: 'left' }
+  AED: { symbol: "د.إ", rate: 4.0, pos: 'left' },
+  RUB: { symbol: "₽", rate: 95.0, pos: 'right' },
+  INR: { symbol: "₹", rate: 92.0, pos: 'left' },
+  DKK: { symbol: "kr.", rate: 7.45, pos: 'right' }
 };
 
 interface LanguageOption {
@@ -2690,27 +3293,30 @@ const languageOptions: LanguageOption[] = [
   { lang: 'tr', currency: 'TRY', flag: 'https://flagcdn.com/w40/tr.png', label: 'TR/TRY' },
   { lang: 'ko', currency: 'KRW', flag: 'https://flagcdn.com/w40/kr.png', label: 'KR/KRW' },
   { lang: 'ar', currency: 'AED', flag: 'https://flagcdn.com/w40/ae.png', label: 'AR/AED' },
+  { lang: 'ru', currency: 'RUB', flag: 'https://flagcdn.com/w40/ru.png', label: 'RU/RUB' },
+  { lang: 'hi', currency: 'INR', flag: 'https://flagcdn.com/w40/in.png', label: 'IN/INR' },
+  { lang: 'da', currency: 'DKK', flag: 'https://flagcdn.com/w40/dk.png', label: 'DK/DKK' },
   { lang: 'en', currency: 'CAD', flag: 'https://flagcdn.com/w40/ca.png', label: 'CA/CAD' },
   { lang: 'de', currency: 'CHF', flag: 'https://flagcdn.com/w40/ch.png', label: 'CH/CHF' }
 ];
 
 const catSubcategories: Record<string, { id: string; label: Record<string, string>; match: (p: Product) => boolean }[]> = {
   'vélo': [
-    { id: 'vtt', label: { fr: 'VTT', en: 'MTB', es: 'VTT', de: 'MTB', it: 'VTT', ja: 'マウンテンバイク (MTB)', pt: 'BTT', nl: 'MTB', sv: 'MTB', pl: 'Górskie', zh: '山地车', tr: 'Dağ Bisikleti', ko: 'MTB', ar: 'دراجات جبلية' }, match: (p) => p.title.toLowerCase().includes('vtt') },
-    { id: 'vtc', label: { fr: 'VTC', en: 'VTC / Hybrid', es: 'VTC / Híbrida', de: 'Trekkingrad', it: 'VTC / Trekking', ja: 'クロスバイク', pt: 'Estrada / Híbrida', nl: 'Hybride', sv: 'Hybrids', pl: 'Trekkingowe', zh: '混合动力', tr: 'Trekking', ko: '하이브리드', ar: 'دراجات هجينة' }, match: (p) => p.title.toLowerCase().includes('vtc') || p.title.toLowerCase().includes('tout chemin') || p.title.toLowerCase().includes('gravel') },
-    { id: 'route', label: { fr: 'Route', en: 'Road Bike', es: 'Carretera', de: 'Rennrad', it: 'Corsa', ja: 'ロードバイク', pt: 'Ciclismo de Estrada', nl: 'Wielrennen', sv: 'Landsväg', pl: 'Szosowe', zh: '公路车', tr: 'Yol Bisikleti', ko: '로드바이크', ar: 'دراجات طريق' }, match: (p) => p.title.toLowerCase().includes('route') || p.title.toLowerCase().includes('rc120') || p.title.toLowerCase().includes('van rysel') },
-    { id: 'electrique', label: { fr: 'Électrique', en: 'Electric Bike', es: 'Eléctrica', de: 'E-Bike', it: 'Elettrica', ja: '電動アシسٹ自転車', pt: 'Elétrica', nl: 'Elektrische fiets', sv: 'Elcykel', pl: 'Elektryczne', zh: '电动自行车', tr: 'Elektrikli', ko: '전기자전거', ar: 'دراجات كهربائية' }, match: (p) => p.title.toLowerCase().includes('électrique') || p.title.toLowerCase().includes('e-expl') || p.title.toLowerCase().includes('e-actv') },
+    { id: 'vtt', label: { fr: 'VTT', en: 'MTB', es: 'VTT', de: 'MTB', it: 'VTT', ja: 'マウンテンバイク (MTB)', pt: 'BTT', nl: 'MTB', sv: 'MTB', pl: 'Górskie', zh: '山地车', tr: 'Dağ Bisikleti', ko: 'MTB', ar: 'دراجات جبلية', ru: 'Маунтинбайк (MTB)', hi: 'माउंटेन बाइक (MTB)', da: 'Mountainbike (MTB)' }, match: (p) => p.title.toLowerCase().includes('vtt') },
+    { id: 'vtc', label: { fr: 'VTC', en: 'VTC / Hybrid', es: 'VTC / Híbrida', de: 'Trekkingrad', it: 'VTC / Trekking', ja: 'クロスバイク', pt: 'Estrada / Híbrida', nl: 'Hybride', sv: 'Hybrids', pl: 'Trekkingowe', zh: '混合动力', tr: 'Trekking', ko: '하이브리드', ar: 'دراجات هجينة', ru: 'Гибридные спорт', hi: 'हाइब्रिड साइकिल', da: 'Hybridcykler' }, match: (p) => p.title.toLowerCase().includes('vtc') || p.title.toLowerCase().includes('tout chemin') || p.title.toLowerCase().includes('gravel') },
+    { id: 'route', label: { fr: 'Route', en: 'Road Bike', es: 'Carretera', de: 'Rennrad', it: 'Corsa', ja: 'ロードバイク', pt: 'Ciclismo de Estrada', nl: 'Wielrennen', sv: 'Landsväg', pl: 'Szosowe', zh: '公路车', tr: 'Yol Bisikleti', ko: '로드바이크', ar: 'دراجات طريق', ru: 'Шоссейные', hi: 'रोड साइकिलिंग', da: 'Racercykler' }, match: (p) => p.title.toLowerCase().includes('route') || p.title.toLowerCase().includes('rc120') || p.title.toLowerCase().includes('van rysel') },
+    { id: 'electrique', label: { fr: 'Électrique', en: 'Electric Bike', es: 'Eléctrica', de: 'E-Bike', it: 'Elettrica', ja: '電動アシスト自転車', pt: 'Elétrica', nl: 'Elektrische fiets', sv: 'Elcykel', pl: 'Elektryczne', zh: '电动自行车', tr: 'Elektrikli', ko: '전기자전거', ar: 'دراجات كهربائية', ru: 'Электровелосипеды', hi: 'इलेक्ट्रिक बाइक', da: 'Elcykler' }, match: (p) => p.title.toLowerCase().includes('électrique') || p.title.toLowerCase().includes('e-expl') || p.title.toLowerCase().includes('e-actv') },
   ],
   'randonnée': [
-    { id: 'baton', label: { fr: 'Bâtons', en: 'Hiking Poles', es: 'Bastones', de: 'Wanderstöcke', it: 'Bastoncini', ja: 'トレッキングポール', pt: 'Bastões de Caminhada', nl: 'Wandelstokken', sv: 'Vandringsstavar', pl: 'Kijki trekkingowe', zh: '登山杖', tr: 'Bastonlar', ko: '등산 스ティック', ar: 'عصي المشي وتجول' }, match: (p) => p.title.toLowerCase().includes('bâton') || p.title.toLowerCase().includes('compact') },
-    { id: 'cuisine', label: { fr: 'Cuisine & Gourdes', en: 'Cooksets & Bottles', es: 'Cocina y Cantimploras', de: 'Kochen & Flaschen', it: 'Borraccia e Gavetta', ja: 'クッカー＆ボトル', pt: 'Cozinha & Garrafas', nl: 'Kookgerei & Flessen', sv: 'Kök & Flaskor', pl: 'Naczynia i Bidony', zh: '餐具与水壶', tr: 'Yemek ve Suluklar', ko: '식기 및 물병', ar: 'أواني طبخ ومطرات' }, match: (p) => p.title.toLowerCase().includes('popote') || p.title.toLowerCase().includes('gourde') || p.title.toLowerCase().includes('lyophilisé') || p.title.toLowerCase().includes('repas') },
-    { id: 'high-tech', label: { fr: 'Montres & Éclairage', en: 'Watches & Lighting', es: 'Relojes y Linternas', de: 'Uhren & Stirnlampen', it: 'Orologi e Frontali', ja: '時計＆ヘッドライト', pt: 'Relógios & Lanternas', nl: 'Horloges & Verlichting', sv: 'Klockor & Belysning', pl: 'Zegarki i Oświetlenie', zh: '手表与照明设备', tr: 'Saatler ve Aydınlatma', ko: '시계 및 헤드램프', ar: 'ساعات وإضاءة' }, match: (p) => p.title.toLowerCase().includes('montre') || p.title.toLowerCase().includes('gps') || p.title.toLowerCase().includes('lampe') || p.title.toLowerCase().includes('frontale') },
-    { id: 'accessoires', label: { fr: 'Hydratation', en: 'Hydration', es: 'Hydratación', de: 'Trinkblasen', it: 'Sacca idrica', ja: 'ハイドレーション', pt: 'Hydratação', nl: 'Hydratatie', sv: 'Vätskesystem', pl: 'Hydratacja', zh: '补水系统', tr: 'Sıvı Desteği', ko: '수분 보충', ar: 'مستلزمات ترطيب' }, match: (p) => p.title.toLowerCase().includes('poche à eau') },
+    { id: 'baton', label: { fr: 'Bâtons', en: 'Hiking Poles', es: 'Bastones', de: 'Wanderstöcke', it: 'Bastoncini', ja: 'トレッキングポール', pt: 'Bastões de Caminhada', nl: 'Wandelstokken', sv: 'Vandringsstavar', pl: 'Kijki trekkingowe', zh: '登山杖', tr: 'Bastonlar', ko: '등산 스ティック', ar: 'عصي المشي وتجول', ru: 'Треккинговые палки', hi: 'ट्रेकिंग पोल्स', da: 'Vandrestave' }, match: (p) => p.title.toLowerCase().includes('bâton') || p.title.toLowerCase().includes('compact') },
+    { id: 'cuisine', label: { fr: 'Cuisine & Gourdes', en: 'Cooksets & Bottles', es: 'Cocina y Cantimploras', de: 'Kochen & Flaschen', it: 'Borraccia e Gavetta', ja: 'クッカー＆ボトル', pt: 'Cozinha & Garrafas', nl: 'Kookgerei & Flessen', sv: 'Kök & Flaskor', pl: 'Naczynia i Bidony', zh: '餐具与水壶', tr: 'Yemek ve Suluklar', ko: '식기 및 물병', ar: 'أواني طبخ ومطرات', ru: 'Посуда и питье', hi: 'बर्तन और बोतलें', da: 'Kogegrej & Dunke' }, match: (p) => p.title.toLowerCase().includes('popote') || p.title.toLowerCase().includes('gourde') || p.title.toLowerCase().includes('lyophilisé') || p.title.toLowerCase().includes('repas') },
+    { id: 'high-tech', label: { fr: 'Montres & Éclairage', en: 'Watches & Lighting', es: 'Relojes y Linternas', de: 'Uhren & Stirnlampen', it: 'Orologi e Frontali', ja: '時計＆ヘッドライト', pt: 'Relógios & Lanternas', nl: 'Horloges & Verlichting', sv: 'Klockor & Belysning', pl: 'Zegarki i Oświetlenie', zh: '手表与照明设备', tr: 'Saatler ve Aydınlatma', ko: '시계 및 헤드램프', ar: 'ساعات وإضاءة', ru: 'Часы и освещение', hi: 'घड़ियाँ और लाइट्स', da: 'Ure & Pandelamper' }, match: (p) => p.title.toLowerCase().includes('montre') || p.title.toLowerCase().includes('gps') || p.title.toLowerCase().includes('lampe') || p.title.toLowerCase().includes('frontale') },
+    { id: 'accessoires', label: { fr: 'Hydratation', en: 'Hydration', es: 'Hydratación', de: 'Trinkblasen', it: 'Sacca idrica', ja: 'ハイドレーション', pt: 'Hydratação', nl: 'Hydratatie', sv: 'Vätskesystem', pl: 'Hydratacja', zh: '补水系统', tr: 'Sıvı Desteği', ko: '수분 보충', ar: 'مستلزمات ترطيب', ru: 'Гидратация', hi: 'पानी स्टोरिंग बैग', da: 'Vandblærer' }, match: (p) => p.title.toLowerCase().includes('poche à eau') },
   ],
   'fitness': [
-    { id: 'tapis', label: { fr: 'Tapis & Protections', en: 'Treadmills & Mats', es: 'Cintas y Alfombras', de: 'Laufbänder & Matten', it: 'Tapis roulant e Tappetini', ja: 'トレッドミル＆ヨガマット', pt: 'Passadeiras & Tapetes', nl: 'Loopbanden & Matten', sv: 'Mattor & Skydd', pl: 'Maty i Ochrona', zh: '瑜伽垫与地垫', tr: 'Koşu Bandı ve Minderler', ko: '매트 및 보호 패드', ar: 'أجهزة جري وسجاد رياضي' }, match: (p) => p.title.toLowerCase().includes('tapis') || p.title.toLowerCase().includes('marche') || p.title.toLowerCase().includes('course') || p.title.toLowerCase().includes('sol') },
-    { id: 'velos', label: { fr: 'Vélos d\'Appartement', en: 'Stationary Bikes', es: 'Bicicletas Estáticas', de: 'Heimtrainer', it: 'Cyclette da camera', ja: 'エアロバイク', pt: 'Bicicletas Estáticas', nl: 'Hometrainers', sv: 'Träningscyklar', pl: 'Rowerki Stacjonarne', zh: '健身车', tr: 'Dikey Bisikletler', ko: '실내 자전거', ar: 'دراجات تمارين ثابتة' }, match: (p) => p.title.toLowerCase().includes('vélo d\'appartement') || p.title.toLowerCase().includes('elliptique') },
-    { id: 'rameurs', label: { fr: 'Rameurs & Autre', en: 'Rowing Machines', es: 'Vogadores', de: 'Rudergeräte', it: 'Rameurs & Altro', ja: 'ローイングマシン', pt: 'Remos & Outros', nl: 'Roeitrainers', sv: 'Rodmaskiner', pl: 'Wioślarze', zh: '划船机', tr: 'Kürek Aletleri', ko: '로잉 머신', ar: 'أجهزة تجديف وأجهزة أخرى' }, match: (p) => p.title.toLowerCase().includes('rameur') },
+    { id: 'tapis', label: { fr: 'Tapis & Protections', en: 'Treadmills & Mats', es: 'Cintas y Alfombras', de: 'Laufbänder & Matten', it: 'Tapis roulant e Tappetini', ja: 'トレッドミル＆ヨガマット', pt: 'Passadeiras & Tapetes', nl: 'Loopbanden & Matten', sv: 'Mattor & Skydd', pl: 'Maty i Ochrona', zh: '瑜伽垫与地垫', tr: 'Koşu Bandı ve Minderler', ko: '매트 및 보호 패드', ar: 'أجهزة جري وسجاد رياضي', ru: 'Дорожки и коврики', hi: 'ट्रेडमिल और मैट', da: 'Løbebånd & Underlag' }, match: (p) => p.title.toLowerCase().includes('tapis') || p.title.toLowerCase().includes('marche') || p.title.toLowerCase().includes('course') || p.title.toLowerCase().includes('sol') },
+    { id: 'velos', label: { fr: 'Vélos d\'Appartement', en: 'Stationary Bikes', es: 'Bicicletas Estáticas', de: 'Heimtrainer', it: 'Cyclette da camera', ja: 'エアロバイク', pt: 'Bicicletas Estáticas', nl: 'Hometrainers', sv: 'Träningscyklar', pl: 'Rowerki Stacjonarne', zh: '健身车', tr: 'Dikey Bisikletler', ko: '실내 자전거', ar: 'دراجات تمارين ثابتة', ru: 'Велотренажеры', hi: 'व्यायाम बाइक', da: 'Motionscykler' }, match: (p) => p.title.toLowerCase().includes('vélo d\'appartement') || p.title.toLowerCase().includes('elliptique') },
+    { id: 'rameurs', label: { fr: 'Rameurs & Autre', en: 'Rowing Machines', es: 'Vogadores', de: 'Rudergeräte', it: 'Rameurs & Altro', ja: 'ローイングマシン', pt: 'Remos & Outros', nl: 'Roeitrainers', sv: 'Rodmaskiner', pl: 'Wioślarze', zh: '划船机', tr: 'Kürek Aletleri', ko: '로잉 머신', ar: 'أجهزة تجديف وأجهزة أخرى', ru: 'Гребные тренажеры', hi: 'रोइंग मशीन', da: 'Romaskiner' }, match: (p) => p.title.toLowerCase().includes('rameur') },
   ]
 };
 
@@ -2778,7 +3384,9 @@ export default function App() {
     return null;
   });
   const [sizeSelection, setSizeSelection] = useState<string>('');
+  const [autoFocusSize, setAutoFocusSize] = useState<boolean>(false);
   const [checkoutStep, setCheckoutStep] = useState<'shopping' | 'success'>('shopping');
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   // Comparateur de produits
   const [comparedProducts, setComparedProducts] = useState<Product[]>([]);
@@ -2803,7 +3411,10 @@ export default function App() {
       zh: '价格',
       tr: 'FİYAT',
       ko: '가격',
-      ar: 'السعر'
+      ar: 'السعر',
+      ru: 'ЦЕНА',
+      hi: 'कीमत',
+      da: 'PRIS'
     };
     const formatFilterValue = (eurValue: number): string => {
       const amount = eurValue * activeCurrency.rate;
@@ -3134,10 +3745,13 @@ export default function App() {
   };
 
   const getCategoryLabel = (cat: string): string => {
-    if (cat === 'vélo') return t('tag_bike');
-    if (cat === 'randonnée') return t('nav_randonnee');
-    if (cat === 'nutrition') return t('nav_nutrition');
-    if (cat === 'fitness') return t('nav_fitness');
+    const cleanCat = cat.toLowerCase().trim();
+    if (cleanCat === 'vélo' || cleanCat === 'velo') return t('nav_velo') || t('tag_bike');
+    if (cleanCat === 'randonnée' || cleanCat === 'randonnee') return t('nav_randonnee');
+    if (cleanCat === 'nutrition') return t('nav_nutrition');
+    if (cleanCat === 'fitness') return t('nav_fitness');
+    if (cleanCat === 'running') return t('nav_running');
+    if (cleanCat === 'accessoires') return t('nav_accessoires');
     return cat;
   };
 
@@ -3325,127 +3939,165 @@ export default function App() {
 
 
       {/* Main Header */}
-      <header className="w-full bg-surface border-b border-outline-variant sticky top-0 z-40 shadow-sm" id="apex-header">
-        <div className="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center py-4 gap-4 md:gap-6">
+      <header className="w-full bg-surface border-b border-outline-variant sticky top-0 z-40 shadow-sm animate-in fade-in duration-300" id="apex-header">
+        <div className="max-w-max-width mx-auto px-margin-mobile md:px-margin-desktop py-3 md:py-4 flex flex-col gap-3 md:gap-5">
           
-          {/* Brand Logo */}
-          <div className="flex-shrink-0 cursor-pointer" onClick={() => { changeCategory('all'); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }} id="apex-logo-container">
-            <h1 className="text-[24px] sm:text-[28px] md:text-[30px] font-black text-primary tracking-tighter uppercase mb-0 leading-none select-none hover:opacity-95 transition-opacity">
-              APEX SPORTS
-            </h1>
+          {/* Top Row containing Left Hamburger, Center Logo, Right Actions */}
+          <div className="flex items-center justify-between w-full gap-2 sm:gap-4 md:gap-6">
+            
+            {/* Mobile Hamburger Icon (Left Aligned, switches to RTL correctly) */}
+            <button 
+              onClick={() => setIsMobileMenuOpen(true)}
+              className="md:hidden flex items-center justify-center p-2 -ml-2 text-primary hover:text-secondary hover:bg-surface-container rounded-full transition-colors outline-none cursor-pointer"
+              title="Menu"
+              id="apex-mobile-hamburger-btn"
+            >
+              <span className="material-symbols-outlined text-[28px]">menu</span>
+            </button>
+
+            {/* Brand Logo (Center or Left depending on screen width) */}
+            <div className="cursor-pointer flex-shrink-0" onClick={() => { changeCategory('all'); setSearchQuery(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }} id="apex-logo-container">
+              <h1 className="text-[20px] sm:text-[24px] md:text-[28px] lg:text-[30px] font-black text-primary tracking-tighter uppercase mb-0 leading-none select-none hover:opacity-95 transition-opacity">
+                APEX SPORTS
+              </h1>
+            </div>
+
+            {/* Desktop Search Bar (hidden on mobile, positioned beside the logo on desktop) */}
+            <div className="hidden md:block flex-grow max-w-2xl relative" id="apex-search-container-desktop">
+              <input 
+                className="w-full pl-12 pr-12 rtl:pl-12 rtl:pr-12 py-3 bg-surface-container border border-outline-variant rounded-lg focus:border-primary focus:ring-1 focus:ring-primary transition-all font-body-sm text-body-sm outline-none" 
+                id="search-input-desktop" 
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                placeholder={t('search_placeholder')} 
+                type="text" 
+              />
+              <span className="material-symbols-outlined absolute left-4 rtl:left-auto rtl:right-4 top-1/2 -translate-y-1/2 text-outline pointer-events-none">
+                search
+              </span>
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-4 rtl:right-auto rtl:left-4 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors text-lg"
+                  id="search-clear-btn-desktop"
+                >
+                  close
+                </button>
+              )}
+            </div>
+
+            {/* Header Actions */}
+            <div className="flex items-center gap-1.5 sm:gap-3 md:gap-5 justify-end md:ml-auto" id="apex-actions-container">
+              
+              {/* Language/Currency Dropdown */}
+              <div className="hidden md:inline-block relative text-left z-50" id="apex-language-dropdown">
+                <div>
+                  <button 
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setDropdownActive(!dropdownActive);
+                    }} 
+                    className="inline-flex items-center justify-center gap-x-1 sm:gap-x-2 rounded-md bg-white border border-outline-variant px-2 sm:px-3 py-1.5 sm:py-2 text-[11px] sm:text-sm font-technical-data font-medium text-on-surface hover:bg-surface-container-low transition-all shadow-sm" 
+                    id="language-dropdown-button" 
+                    type="button"
+                  >
+                    <img src={currentFlag} alt="flag" className="w-4 h-3 sm:w-5 sm:h-3.5 object-cover inline-block rounded-xs shadow-xs border border-gray-100" referrerPolicy="no-referrer" id="current-flag" />
+                    <span className="uppercase tracking-tight hidden sm:inline" id="current-lang-currency">{currentLangLabel}</span>
+                    <span className="material-symbols-outlined text-[16px] sm:text-[18px] text-outline">expand_more</span>
+                  </button>
+                </div>
+
+                {/* Dropdown Menu Content */}
+                {dropdownActive && (
+                  <div 
+                    className="absolute right-0 mt-2 w-48 max-h-[300px] overflow-y-auto origin-top-right rounded-md bg-white shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none z-50 block animate-in fade-in slide-in-from-top-2 duration-150" 
+                    role="menu"
+                    id="language-dropdown-menu"
+                  >
+                    <div className="py-1" role="none">
+                      {languageOptions.map((opt, idx) => (
+                        <button 
+                          key={idx}
+                          className="w-full text-left text-on-surface hover:bg-surface-container flex items-center gap-3 px-4 py-3 text-sm font-label-bold transition-colors cursor-pointer" 
+                          onClick={() => selectLanguageOption(opt)} 
+                          role="menuitem"
+                          id={`lang-opt-${idx}`}
+                        >
+                          <img src={opt.flag} alt={`${opt.label} flag`} className="w-5 h-3.5 object-cover rounded-xs shadow-xs border border-gray-100" referrerPolicy="no-referrer" /> 
+                          <span>{opt.label}</span>
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+
+              {/* Compare Button */}
+              <button 
+                onClick={() => setIsCompareModalOpen(true)}
+                className="p-1.5 sm:p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center relative cursor-pointer" 
+                title={lang === 'fr' ? "Comparateur" : "Compare"}
+                id="apex-header-compare-btn"
+              >
+                <span className="material-symbols-outlined text-[20px] sm:text-[24px]">compare_arrows</span>
+                {comparedProducts.length > 0 && (
+                  <span className="absolute -top-1 -right-1 w-4 sm:w-4.5 h-4 sm:h-4.5 bg-secondary text-white text-[8px] sm:text-[9px] font-bold rounded-full flex items-center justify-center border border-surface">
+                    {comparedProducts.length}
+                  </span>
+                )}
+              </button>
+
+              {/* User Account Icon */}
+              <button 
+                onClick={() => setIsAccountOpen(true)}
+                className="p-1.5 sm:p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center cursor-pointer" 
+                title={t('create_account')}
+                id="apex-account-btn"
+              >
+                <span className="material-symbols-outlined text-[20px] sm:text-[24px]">person</span>
+              </button>
+
+              {/* Cart Icon */}
+              <button 
+                onClick={() => setIsCartOpen(true)}
+                className="p-1.5 sm:p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center relative cursor-pointer" 
+                title={t('cart')}
+                id="apex-cart-btn"
+              >
+                <span className="material-symbols-outlined text-[20px] sm:text-[24px]">shopping_cart</span>
+                {cartTotalItems > 0 ? (
+                  <span className="absolute -top-1 -right-1 w-4.5 sm:w-5 h-4.5 sm:h-5 bg-secondary text-white text-[9px] sm:text-[10px] font-bold rounded-full flex items-center justify-center border border-surface animate-bounce" id="cart-multiplier">
+                    {cartTotalItems}
+                  </span>
+                ) : (
+                  <span className="absolute top-0 sm:top-1 right-0 sm:right-1 w-2 h-2 bg-secondary rounded-full border border-surface"></span>
+                )}
+              </button>
+            </div>
           </div>
 
-          {/* Search Bar */}
-          <div className="flex-grow w-full md:max-w-2xl relative" id="apex-search-container">
+          {/* Mobile Search Bar (only shown on mobile below the top bar for a pristine layout) */}
+          <div className="md:hidden w-full relative" id="apex-search-container-mobile">
             <input 
-              className="w-full pl-12 pr-4 py-3 bg-surface-container border border-outline-variant rounded-lg focus:border-primary focus:ring-1 focus:ring-primary transition-all font-body-sm text-body-sm outline-none" 
-              id="search-input" 
+              className="w-full pl-12 pr-12 rtl:pl-12 rtl:pr-12 py-2.5 bg-surface-container border border-outline-variant rounded-lg focus:border-primary focus:ring-1 focus:ring-primary transition-all font-body-sm text-body-sm outline-none" 
+              id="search-input-mobile" 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               placeholder={t('search_placeholder')} 
               type="text" 
             />
-            <span className="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-outline pointer-events-none">
+            <span className="material-symbols-outlined absolute left-4 rtl:left-auto rtl:right-4 top-1/2 -translate-y-1/2 text-outline pointer-events-none">
               search
             </span>
             {searchQuery && (
               <button 
                 onClick={() => setSearchQuery('')}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors text-lg"
-                id="search-clear-btn"
+                className="absolute right-4 rtl:right-auto rtl:left-4 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors text-lg"
+                id="search-clear-btn-mobile"
               >
                 close
               </button>
             )}
-          </div>
-
-          {/* Header Actions */}
-          <div className="flex items-center gap-5 justify-center md:justify-end w-full md:w-auto md:ml-auto" id="apex-actions-container">
-            
-            {/* Language/Currency Dropdown */}
-            <div className="relative inline-block text-left z-50" id="apex-language-dropdown">
-              <div>
-                <button 
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setDropdownActive(!dropdownActive);
-                  }} 
-                  className="inline-flex items-center justify-center gap-x-2 rounded-md bg-white border border-outline-variant px-3 py-2 text-sm font-technical-data font-medium text-on-surface hover:bg-surface-container-low transition-all shadow-sm" 
-                  id="language-dropdown-button" 
-                  type="button"
-                >
-                  <img src={currentFlag} alt="flag" className="w-5 h-3.5 object-cover inline-block rounded-xs shadow-xs border border-gray-100" referrerPolicy="no-referrer" id="current-flag" />
-                  <span className="uppercase tracking-tight" id="current-lang-currency">{currentLangLabel}</span>
-                  <span className="material-symbols-outlined text-[18px] text-outline">expand_more</span>
-                </button>
-              </div>
-
-              {/* Dropdown Menu Content */}
-              {dropdownActive && (
-                <div 
-                  className="absolute left-1/2 -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 mt-2 w-48 max-h-[350px] overflow-y-auto origin-top-right rounded-md bg-white shadow-xl ring-1 ring-black ring-opacity-5 focus:outline-none z-50 block animate-in fade-in slide-in-from-top-2 duration-150" 
-                  role="menu"
-                  id="language-dropdown-menu"
-                >
-                  <div className="py-1" role="none">
-                    {languageOptions.map((opt, idx) => (
-                      <button 
-                        key={idx}
-                        className="w-full text-left text-on-surface hover:bg-surface-container flex items-center gap-3 px-4 py-3 text-sm font-label-bold transition-colors cursor-pointer" 
-                        onClick={() => selectLanguageOption(opt)} 
-                        role="menuitem"
-                        id={`lang-opt-${idx}`}
-                      >
-                        <img src={opt.flag} alt={`${opt.label} flag`} className="w-5 h-3.5 object-cover rounded-xs shadow-xs border border-gray-100" referrerPolicy="no-referrer" /> 
-                        <span>{opt.label}</span>
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Compare Button */}
-            <button 
-              onClick={() => setIsCompareModalOpen(true)}
-              className="p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center relative cursor-pointer" 
-              title={lang === 'fr' ? "Comparateur" : "Compare"}
-              id="apex-header-compare-btn"
-            >
-              <span className="material-symbols-outlined text-[24px]">compare_arrows</span>
-              {comparedProducts.length > 0 && (
-                <span className="absolute top-0 right-0 w-4.5 h-4.5 bg-secondary text-white text-[9px] font-bold rounded-full flex items-center justify-center border border-surface">
-                  {comparedProducts.length}
-                </span>
-              )}
-            </button>
-
-            {/* User Account Icon */}
-            <button 
-              onClick={() => setIsAccountOpen(true)}
-              className="p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center cursor-pointer" 
-              title={t('create_account')}
-              id="apex-account-btn"
-            >
-              <span className="material-symbols-outlined text-[24px]">person</span>
-            </button>
-
-            {/* Cart Icon */}
-            <button 
-              onClick={() => setIsCartOpen(true)}
-              className="p-2 text-on-surface hover:text-secondary transition-colors flex items-center justify-center relative cursor-pointer" 
-              title={t('cart')}
-              id="apex-cart-btn"
-            >
-              <span className="material-symbols-outlined text-[24px]">shopping_cart</span>
-              {cartTotalItems > 0 ? (
-                <span className="absolute top-0 right-0 w-5 h-5 bg-secondary text-white text-[10px] font-bold rounded-full flex items-center justify-center border border-surface animate-bounce" id="cart-multiplier">
-                  {cartTotalItems}
-                </span>
-              ) : (
-                <span className="absolute top-1 right-1 w-2 h-2 bg-secondary rounded-full border border-surface"></span>
-              )}
-            </button>
           </div>
         </div>
 
@@ -3486,6 +4138,216 @@ export default function App() {
         </nav>
       </header>
 
+      {/* Drawer Mobile Hamburger Menu */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 z-50 flex" id="apex-mobile-drawer-wrapper">
+          {/* Backdrop */}
+          <div 
+            className="fixed inset-0 bg-black/40 duration-300 ease-out transition-opacity animate-in fade-in"
+            onClick={() => setIsMobileMenuOpen(false)}
+            id="apex-drawer-backdrop"
+          />
+
+          {/* Drawer Content Panel */}
+          <div 
+            className="relative flex flex-col w-full max-w-xs h-full bg-white shadow-2xl transition-transform duration-300 ease-in-out transform rtl:translate-x-0 animate-in slide-in-from-left duration-200"
+            style={{ direction: document.documentElement.dir === 'rtl' ? 'rtl' : 'ltr' }}
+            id="apex-drawer-panel"
+          >
+            {/* Top Close Section */}
+            <div className="flex justify-end p-4 border-b border-outline-variant" id="apex-drawer-close-container">
+              <button 
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="p-2 text-primary hover:text-secondary rounded-full transition-colors outline-none cursor-pointer"
+                id="apex-drawer-close-btn"
+              >
+                <span className="material-symbols-outlined text-[28px]">close</span>
+              </button>
+            </div>
+
+            {/* Menu Links */}
+            <div className="flex-grow overflow-y-auto py-4 px-2 select-none" id="apex-drawer-links-container">
+              <div className="space-y-1.5" id="apex-drawer-primary-links">
+                {[
+                  {
+                    id: 'all',
+                    label: t('all_products') || (lang === 'fr' ? "Tous les produits" : "All products"),
+                    action: () => {
+                      changeCategory('all');
+                      const target = document.getElementById('catalog-anchor');
+                      if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                      } else {
+                        window.scrollTo({ top: 400, behavior: 'smooth' });
+                      }
+                      setIsMobileMenuOpen(false);
+                    }
+                  },
+                  {
+                    id: 'vélo',
+                    label: t('nav_velo') || "Vélo",
+                    action: () => {
+                      changeCategory('vélo');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  },
+                  {
+                    id: 'randonnée',
+                    label: t('nav_randonnee') || "Randonnée",
+                    action: () => {
+                      changeCategory('randonnée');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  },
+                  {
+                    id: 'running',
+                    label: t('nav_running') || "Running",
+                    action: () => {
+                      changeCategory('running');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  },
+                  {
+                    id: 'fitness',
+                    label: t('nav_fitness') || "Fitness",
+                    action: () => {
+                      changeCategory('fitness');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  },
+                  {
+                    id: 'nutrition',
+                    label: t('nav_nutrition') || "Nutrition & Santé",
+                    action: () => {
+                      changeCategory('nutrition');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  },
+                  {
+                    id: 'accessories',
+                    label: t('nav_accessoires') || "Accessoires",
+                    action: () => {
+                      changeCategory('accessories');
+                      setIsMobileMenuOpen(false);
+                      setTimeout(() => {
+                        document.getElementById('catalog-anchor')?.scrollIntoView({ behavior: 'smooth' });
+                      }, 250);
+                    }
+                  }
+                ].map((item) => {
+                  const isCurrent = selectedCategory === item.id;
+                  return (
+                    <button
+                      key={item.id}
+                      onClick={item.action}
+                      className={`w-full flex items-center justify-between px-4 py-3 text-left font-headline-md text-base rounded-md transition-all cursor-pointer ${
+                        isCurrent 
+                          ? 'bg-secondary/10 text-secondary font-bold' 
+                          : 'text-primary hover:bg-surface-container active:bg-surface-container-high'
+                      }`}
+                      id={`drawer-link-${item.id}`}
+                    >
+                      <span className="capitalize">{item.label}</span>
+                      <span className="material-symbols-outlined text-[18px] text-outline rtl:rotate-180">
+                        chevron_right
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Drawer Secondary Footnotes */}
+              <div className="mt-8 pt-6 border-t border-outline-variant space-y-4 px-4 text-on-surface-variant font-label-bold" id="apex-drawer-footer">
+                <button
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    setTimeout(() => {
+                      const element = document.getElementById('footer-contact-info') || document.getElementById('apex-footer');
+                      element?.scrollIntoView({ behavior: 'smooth' });
+                    }, 250);
+                  }}
+                  className="flex items-center gap-3 w-full text-left text-sm hover:text-secondary group transition-colors cursor-pointer"
+                  id="drawer-footer-help"
+                >
+                  <span className="material-symbols-outlined text-outline group-hover:text-secondary text-[20px]">help_outline</span>
+                  <span>{lang === 'fr' ? "Aide et support" : "Help & support"}</span>
+                </button>
+
+                <button
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    setTimeout(() => {
+                      const element = document.getElementById('footer-stores-info') || document.getElementById('apex-footer');
+                      element?.scrollIntoView({ behavior: 'smooth' });
+                    }, 250);
+                  }}
+                  className="flex items-center gap-3 w-full text-left text-sm hover:text-secondary group transition-colors cursor-pointer"
+                  id="drawer-footer-stores"
+                >
+                  <span className="material-symbols-outlined text-outline group-hover:text-secondary text-[20px]">storefront</span>
+                  <span>{lang === 'fr' ? "Trouver un magasin" : t('footer_stores') || "Find a store"}</span>
+                </button>
+              </div>
+
+              {/* Language Selection Section */}
+              <div className="mt-6 pt-6 border-t border-outline-variant px-4" id="apex-drawer-language-section">
+                <h4 className="text-xs font-bold text-outline uppercase tracking-wider mb-3">
+                  {lang === 'fr' ? "Langue & Devise" : "Language & Currency"}
+                </h4>
+                <div className="grid grid-cols-1 gap-1.5" id="drawer-languages-list">
+                  {languageOptions.map((opt, idx) => {
+                    const isSelected = opt.lang === lang;
+                    return (
+                      <button
+                        key={idx}
+                        onClick={() => {
+                          selectLanguageOption(opt);
+                          setIsMobileMenuOpen(false);
+                        }}
+                        className={`w-full flex items-center justify-between px-3 py-2 text-sm font-label-bold rounded-md transition-all cursor-pointer border ${
+                          isSelected 
+                            ? 'bg-secondary/10 text-secondary border-secondary/20 font-bold' 
+                            : 'text-primary hover:bg-surface-container border-transparent'
+                        }`}
+                        id={`drawer-lang-opt-${idx}`}
+                      >
+                        <div className="flex items-center gap-2.5">
+                          <img 
+                            src={opt.flag} 
+                            alt={`${opt.label} flag`} 
+                            className="w-5 h-3.5 object-cover rounded-xs shadow-xs border border-gray-100" 
+                            referrerPolicy="no-referrer" 
+                          />
+                          <span>{opt.label}</span>
+                        </div>
+                        {isSelected && (
+                          <span className="material-symbols-outlined text-secondary text-[18px]">check</span>
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Main Container */}
       <main className="flex-grow">
         {selectedProduct ? (
@@ -3501,6 +4363,8 @@ export default function App() {
             isCompared={comparedProducts.some((p) => p.id === selectedProduct.id)}
             comparedProducts={comparedProducts.map(p => products.find(prod => prod.id === p.id) || p)}
             onToggleCompare={toggleCompareProduct}
+            autoFocusSize={autoFocusSize}
+            onClearAutoFocusSize={() => setAutoFocusSize(false)}
           />
         ) : (
           <>
@@ -3808,7 +4672,20 @@ export default function App() {
                               {/* Action Buttons: Add to Basket & Compare (vertical layout on mobile & tablet for seamless fit inside borders, side-by-side on large desktop screens) */}
                               <div className="flex flex-col lg:flex-row gap-1.5 mt-2.5 w-full">
                                 <button 
-                                  onClick={() => addToCartAction(product, product.sizes[0] || "Sans taille")}
+                                  onClick={() => {
+                                    const hasPhysicalSizes = product.sizes &&
+                                      product.sizes.length > 0 &&
+                                      product.sizes[0] !== "Sans taille" &&
+                                      product.sizes[0] !== "Sans taille." &&
+                                      product.sizes[0] !== "UNIQUE" &&
+                                      product.sizes[0] !== "NO SIZE";
+                                    if (hasPhysicalSizes) {
+                                      setSelectedProduct(product);
+                                      setAutoFocusSize(true);
+                                    } else {
+                                      addToCartAction(product, product.sizes[0] || "Sans taille");
+                                    }
+                                  }}
                                   className="w-full lg:flex-grow bg-primary hover:bg-primary-container text-white h-9 lg:h-10 px-2.5 sm:px-3 rounded-md font-label-bold text-[10.5px] sm:text-[11px] lg:text-body-xs transition-all flex items-center justify-center gap-1.5 transform active:scale-[0.98] outline-none cursor-pointer"
                                   id={`add-btn-${product.id}`}
                                 >
